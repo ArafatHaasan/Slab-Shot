@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:avenir;
+    src: url(./assets/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url('./assets/HelveticaNeueHv.ttf');
+}
+
+
+body{
+    /* body text family  */
+    font-family: avenir;
+    
+    
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+    /* header font family  */
+    font-family: "helvetica";
+
+}
+
+p{
+
+    /* paragrap size  */
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.6px;
+
+}
+
+.secondary-pera{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+
+    border: none;
+    background:none;
+
+}
+
+
+header{
+    margin-top: 20px;
+    height: 70px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+
+
+
+.left-header{
+display: flex;
+flex: 1;
+align-items: center;
+}
+
+.manu-list{
+    display: flex;
+    margin-left: 100px;
+}
+
+.menu-list, li, a{
+    margin-right: 40px;
+    color: #4B5D68;
+}
+
+.menu-list, li, a:active{
+    color: #212353;
+}
+
+.Right-header{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.req-btn{
+    color: #212353;
+    font-weight: 500;
+    font-family: avenir;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    padding: 12px 15px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    
+}
+
+.req-btn > span{
+    color: #9C69E2;
+    margin-left: -15px;
+}
+
+
+.banner{
+    height: calc(100vh - 80px);
+    display: flex;
+    /* align-items: center; */
+    
+}
+
+.inner-bneer{
+    background-image: url("./assets/banner.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 55%;
+
+}
+.inner_banner, h1 {
+    width: 645px;
+    font-family: Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+
+   
+    
+   
+}
+
+.inner_banner, p{
+    width: 380px;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+.inner_banner > button{
+    width: 170px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #9C69E2;
+    color: white;
+    padding: 12px 3px;
+    text-align: center;
+
+}
+
+
+.intro-container{
+    margin-top: 100px;
+}
+
+.inner-box{
+    background-color: #FDE8F4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+}
+
+
+.inner-right{
+    flex: 1;
+
+}
+.inner-left{
+flex: 1;
+}
+.inner-right > h2{
+        width: 475px;
+        font-family: Helvetica;
+        font-size: 30px;
+        font-weight: 700;
+
+}
+
+.inner-right > p{
+    margin-top: 20px;
+}
+
+
+.Feature-section{
+    margin-top: 100px;
+}
+
+.feature-header > h3 {
+text-align: center;
+font-family: Helvetica;
+font-size: 35px;
+font-weight: 700;
+line-height: 52px;
+color: #212353;
+
+
+}
+.feature-header > p {
+
+    margin: auto;
+    width: 584px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4B5D68;
+
+}
+
+
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px 10px;
+    margin: 100px 0;
+}
+
+.feature-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url("./assets/Rectangle\ 39.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+
+.feature-right{
+    padding: 20px 20px 20px 0;
+}
+
+.feature-right > p{
+    padding: 20px 0;
+}
+.feature-right > h4 {
+    color: #212353;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+
+.req-btn-two{
+    color: #212353;
+    font-weight: 500;
+    font-family: avenir;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    padding: 12px 0;
+    
+ 
+   
+}
+
+.req-btn-two > span{
+    color: #9C69E2  ;
+    margin-left: 20px;
+}
+
+.feature-right > p{
+    width: 245px;
+}
+   
+
+footer{
+    margin-top: 100px;
+    border-top: 4px solid #F5F0FC;
+    padding: 0 30px;
+}
+
+.newsletter-box{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.newsletter-box-left{
+    flex: 1;
+}
+
+.newsletter-box-left > h4{
+font-family: Helvetica;
+font-size: 30px;
+font-weight: 700;
+line-height: 52px; }
+
+.newsletter-box-left > p {
+    color: #4B5D68;
+ 
+
+}
+.newsletter-box-right{
+    flex: 1;
+    display: flex;
+
+}
+
+.learn-more-btn{
+    width: 170px;
+    margin-right: 20px;
+    border-radius: 50px;
+    background-color: #F063B8;
+    color: white;
+    padding: 12px 3px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footer-menu-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.footer-menu-left{
+    flex: 1;
+
+}
+
+.footer-logo-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 67px;
+}
+
+.footer-logo-section > h5{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #212353;
+
+
+}
+
+
+.footer-address > h6{
+    color: #212353;
+    font-size: 14px;
+    font-weight: 200px;
+    font-family: avenir;
+    max-width: 335px;
+    line-height: 30px;
+
+
+
+}
+
+.footer-contact-box p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footer-menu-right{
+
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+
+
+}
+
+.menu-one > h6{
+    font-size: 16px;
+    color: #212353;
+    font-family: avenir;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+
+.menu-one, ul, li{
+    margin: 10px 0;
+}
+
+
+.Copy-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.Copy-container > p{
+    color: #212353;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
